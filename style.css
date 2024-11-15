@@ -154,7 +154,14 @@ section{
     width: 40rem;
     height: 5rem;
 }
-.btn-box .btn{
+
+.btn-row {
+    display: flex;
+    gap: 1rem; /* Adds space between the buttons in the row */
+    margin-bottom: 1rem; /* Adds space between the row and the button below */
+}
+
+.btn-box .btn {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -171,6 +178,7 @@ section{
     z-index: 1;
     overflow: hidden;
     transition: .5s;
+    text-align: center; /* Ensures text is centered */
 }
 
 
