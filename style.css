@@ -147,23 +147,25 @@ section{
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
 }
+
 .btn-box {
     position: relative;
     display: flex;
     flex-direction: column; /* Stack buttons vertically */
+    align-items: center;    /* Center align buttons */
     justify-content: center;
-    align-items: center;
     width: 40rem;
-    height: auto; /* Allow height to adjust based on content */
-    gap: 1.5rem; /* Space between the buttons */
+    height: auto;  /* Let the container expand to accommodate all buttons */
+    gap: 20px;     /* Space between buttons */
 }
 
-/* Row for the buttons */
+/* Row for buttons (both first and second row) */
 .btn-row {
-    display: flex; 
+    display: flex;
     justify-content: center;
-    gap: 1.5rem; /* Space between buttons in the same row */
+    gap: 20px; /* Space between the buttons in the row */
 }
+
 
 .btn {
     position: relative;
