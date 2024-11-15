@@ -155,7 +155,7 @@ section{
     height: 5rem;
 }
 .btn-row {
-    margin-bottom: 15px; /* Adjust the space between the rows */
+    margin-bottom: 50px; /* Adjust the space between the rows */
 }
 
 .btn-box .btn {
