@@ -151,19 +151,19 @@ section{
 .btn-box {
     position: relative;
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    align-items: center;    /* Center align buttons */
+    flex-direction: column; 
+    align-items: center;   
     justify-content: center;
     width: 40rem;
-    height: auto;  /* Let the container expand to accommodate all buttons */
-    gap: 20px;     /* Space between buttons */
+    height: auto; 
+    gap: 20px;     
 }
 
-/* Row for buttons (both first and second row) */
+
 .btn-row {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between the buttons in the row */
+    gap: 20px;
 }
 
 
@@ -173,7 +173,7 @@ section{
     justify-content: center;
     align-items: center;
     width: 15rem;
-    height: 4rem; /* Adjust the height to your preference */
+    height: 4rem; 
     background-color: var(--main-color);
     border: 0.2rem solid var(--main-color);
     border-radius: 0.8rem;
@@ -185,7 +185,7 @@ section{
     overflow: hidden;
     transition: 0.5s;
     text-align: center;
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
 }
 
 
@@ -565,7 +565,7 @@ span{
 
 .contact{
     min-height: auto;
-    padding-bottom: 9rem;
+    padding-bottom: 10rem;
 }
 
 .contact h2 {
