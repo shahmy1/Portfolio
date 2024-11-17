@@ -563,8 +563,8 @@ span{
     width: 85%;
 }
 
-.contact{
-    min-height: 100vh;
+.contact {
+    min-height: 100vh; 
     padding-bottom: 2rem; 
 }
 
