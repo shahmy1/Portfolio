@@ -564,15 +564,8 @@ span{
 }
 
 .contact{
-/*     min-height: auto;
-    padding-bottom: 9rem; */
-
-
     min-height: auto;
-    padding: 2rem 1rem 9rem; 
-   
-    margin: 2rem auto;
-    max-width: 600px;
+    padding-bottom: 7rem; 
 }
 
 .contact h2 {
